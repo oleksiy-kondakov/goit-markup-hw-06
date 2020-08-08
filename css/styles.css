@@ -659,7 +659,7 @@ img {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-  color: #757575;
+  color: #212121;
 }
 
 .modal-label-wrapper {
@@ -721,7 +721,7 @@ img {
   border-color: #2196f3;
 }
 .modal-message {
-  width: 448px;
+  max-width: 448px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -732,9 +732,9 @@ img {
 
   font-weight: normal;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.16;
   letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
+  color: #212121;
 }
 
 .modal-message:focus {
