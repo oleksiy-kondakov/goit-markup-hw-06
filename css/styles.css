@@ -561,6 +561,13 @@ img {
   padding-top: 15px;
   padding-bottom: 15px;
   margin-right: 12px;
+  outline: none;
+  color: #ffffff;
+}
+.footer-submit-input:not(:placeholder-shown) {
+  background-color: transparent;
+  border: 1px solid #2196f3;
+  border-radius: 4px;
 }
 .footer-submit-btn {
   font-family: inherit;
@@ -598,7 +605,10 @@ img {
 .footer-submit-btn-icon {
   width: 24px;
   height: 24px;
+  fill: #ffffff;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  margin-left: 10px;
 }
 .footer-submit-btn:hover .footer-submit-btn-icon,
 .footer-submit-btn:focus .footer-submit-btn-icon {
