@@ -639,6 +639,7 @@ img {
   flex-direction: column;
 
   max-width: 528px;
+  width: 100%;
   padding: 40px;
 
   background: #ffffff;
